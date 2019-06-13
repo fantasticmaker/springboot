@@ -1,1 +1,21 @@
-测试123
+SpringBoot集成
+	API规范
+		RESTful
+	热部署
+		devtools
+	资源文件
+	模板引擎
+		Freemarker
+		Thymeleaf
+	异常捕获
+		Web
+		Ajax
+	ORM框架
+		MyBatis
+	缓存
+		Redis
+	定时任务
+		task
+	拦截器
+		
+		...
