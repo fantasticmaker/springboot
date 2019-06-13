@@ -2,37 +2,41 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<!-- 项目启动 -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<!-- 项目基本信息 -->
 	<groupId>com.maker</groupId>
 	<artifactId>springboot-start</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-start</name>
 	<description>Demo project for Spring Boot</description>
-
+	<!-- 项目属性配置 -->
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-
+	<!-- 项目依赖 -->
 	<dependencies>
+		<!-- springboot启动项 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
-		<dependency>
+		<!-- 测试 -->
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 	</dependencies>
-
+	<!-- 项目插件 -->
 	<build>
 		<plugins>
+			<!-- maven插件 -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
